@@ -1,0 +1,25 @@
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1rem;
+
+  font-size: .85rem;
+
+  border-top: 1px solid #d9dcdc;
+
+  &__link {
+    transition: color .2s,border .2s;
+    border-bottom: 2px solid transparent;
+  }
+  
+  &__link:hover {
+    color: #707979;
+    border-bottom: 2px solid #95e8ed;
+  }
+  
+  &__link:last-child {
+    margin-left: auto;
+  }
+}
+

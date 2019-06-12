@@ -1,0 +1,25 @@
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+
+    border-bottom: 1px solid #d9dcdc;
+
+  &__link {
+      font-size: 0.9rem;
+      border-bottom: 2px dashed #95e8ed;
+
+      transition: color .2s, border .2s;
+  }
+
+  &__link:hover {
+      color: #707979;
+      border-bottom: 2px solid #95e8ed;
+  }
+
+  &__heading {
+      margin: 0;
+  }
+}

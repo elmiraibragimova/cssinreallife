@@ -1,0 +1,32 @@
+.article {
+  &__title {
+    margin: 0 0 0.5rem;
+    line-height: 1.1;
+    
+  }
+
+  &__title span {
+      line-height: 1.1;
+
+      box-shadow: inset 0 -0.5em 0 #95e8ed;
+      transition: box-shadow .2s ease-in-out;
+  }
+
+  &:hover .article__title span  {
+      box-shadow: inset 0 -1.2em 0 #ed65e8;
+  }
+
+  & time {
+      display: inline-block;
+      margin-bottom: 1rem;
+
+      font-size: 0.8rem;
+  }
+
+  & p {
+      margin-top: 0;
+      margin-bottom: 0;
+
+      font-size: .9rem;
+  }
+}

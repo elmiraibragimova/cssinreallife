@@ -1,0 +1,28 @@
+.menu {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  &__item a {
+    display: inline-flex;
+    align-items: center;
+  
+    font-size: 1rem;
+    line-height: 1.2;
+  
+    box-shadow: inset 0 -0.5em 0 #95e8ed;
+    transition: box-shadow .2s ease-in-out;
+
+    &:hover {
+      box-shadow: inset 0 -1.2em 0 #ed65e8;
+    }
+  }
+  
+  &__icon {
+    width: 1.2em;
+    height: 1.2rem;
+    margin-right: 1rem; 
+  
+    fill: #0e0f0f;
+  }
+}
+
