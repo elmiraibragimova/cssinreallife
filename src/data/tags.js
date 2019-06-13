@@ -2,91 +2,91 @@ export default [
   {
     "title": "animation",
     "amount": 2,
-    "id": 'tag_1'
+    "id": 'animation'
   },
   {
     "title": "careers",
     "amount": 4,
-    "id": "tag_2"
+    "id": "careers"
   },
   {
     "title": "clip-path",
     "amount": 1,
-    "id": "tag_3"
+    "id": "clip-path"
   },
   {
     "title": "css",
     "amount": 5,
-    "id": "tag_4"
+    "id": "css"
   },
   {
     "title": "css grid",
     "amount": 18,
-    "id": "tag_5"
+    "id": "css-grid"
   },
   {
     "title": "css shapes",
     "amount": 1,
-    "id": "tag_6"
+    "id": "css-shapes"
   },
   {
     "title": "custom properties",
     "amount": 7,
-    "id": "tag_7"
+    "id": "custom-properties"
   },
   {
     "title": "design",
     "amount": 1,
-    "id": "tag_8"
+    "id": "design"
   },
   {
     "title": "diversity",
     "amount": 1,
-    "id": "tag_9"
+    "id": "diversity"
   },
   {
     "title": "events",
     "amount": 4,
-    "id": "tag_10"
+    "id": "events"
   },
   {
     "title": "flexbox",
     "amount": 1,
-    "id": "tag_11"
+    "id": "flexbox"
   },
   {
     "title": "gatsby",
     "amount": 2,
-    "id": "tag_12"
+    "id": "gatsby"
   },
   {
     "title": "git",
     "amount": 2,
-    "id": "tag_13"
+    "id": "git"
   },
   {
     "title": "inspiration",
     "amount": 4,
-    "id": "tag_14"
+    "id": "inspiration"
   },
   {
     "title": "pwa",
     "amount": 2,
-    "id": "tag_15"
+    "id": "pwa"
   },
   {
     "title": "svg",
     "amount": 1,
-    "id": "tag_16"
+    "id": "svg"
   },
   {
     "title": "video",
     "amount": 1,
-    "id": "tag_17"
+    "id": "video"
   },
   {
     "title": "workflow",
     "amount": 11,
-    "id": "tag_18"
+    "id": "workflow"
   }
 ]
