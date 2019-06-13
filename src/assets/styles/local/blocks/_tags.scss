@@ -1,0 +1,18 @@
+.tags {
+  column-count: 2;
+
+  &__link {
+    box-shadow: inset 0 -0.5em 0 #95e8ed;
+    transition: box-shadow .2s ease-in-out;
+
+    &:hover {
+      box-shadow: inset 0 -1.2em 0 #ed65e8;
+    }
+  }
+
+  &__item {
+    a {
+      font-weight: 700;
+    }
+  }
+}
