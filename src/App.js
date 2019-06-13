@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -13,9 +15,14 @@ function App() {
     <div className="page">
       <Header />
       <Nav />
+
       <main className="page__content">
-        <TagsPage />
+        <Router>
+          <Route path="/" exact component={MainPage} />
+          <Route path="/tags/" component={TagsPage} />
+        </Router>
       </main>
+      
       <Footer />
     </div>
   );

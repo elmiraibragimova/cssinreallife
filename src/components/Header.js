@@ -6,7 +6,7 @@ class Header extends Component {
 
     return (
       <header className="page__header">
-        <a href="">
+        <a href="/">
           <h1 className="logo">
             <span className="logo__title">CSS</span>
             <span className="logo__subheading">{subtitle}</span>

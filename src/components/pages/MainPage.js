@@ -15,7 +15,7 @@ class MainPage extends Component {
         <header className="content-header" key="header">
             <h4 className="content-header__heading">39 Posts</h4>
             <div>
-                <a className="content-header__link" href="">Search by tag →</a>
+                <a className="content-header__link" href="/tags/">Search by tag →</a>
             </div>
         </header>,
 
